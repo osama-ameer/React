@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  font-style: inherit;
+  font-display: black;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: url('https://i.pinimg.com/originals/e3/01/27/e30127a76d70d0b4847d654c1ce46d41.jpg');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btnad{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#outlined-uncontrolled{
+
+  width: 450px;
+}
+.btnedit{
+  margin-left: 15px;
+  padding: 7px;
+  margin-top: 3px;
+}
+.btndel{
+  margin-left: 3px;
+  margin-top: 3px;
+  
+}
